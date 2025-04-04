@@ -29,7 +29,7 @@
                 <DataTemplate>
                     <TextCell
                         Text="{Binding Path=Nome}"
-                        Detail="{Binding Path=Email}">
+                        Detail="{Binding Path=Observacao}">
                         <TextCell.ContextActions>
                             <MenuItem  Text="Apagar" IsDestructive="True" Clicked="Apagar_Clicked" CommandParameter="{Binding .}"></MenuItem>
                         </TextCell.ContextActions>

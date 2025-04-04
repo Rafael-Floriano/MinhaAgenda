@@ -47,6 +47,18 @@ public partial class ContatosControl : ContentView
         }
     }
 
+    public string Observation
+    {
+        get
+        {
+            return entryObservation.Text;
+        }
+        set
+        {
+            entryObservation.Text = value;
+        }
+    }
+
     public string Address
     {
         get
